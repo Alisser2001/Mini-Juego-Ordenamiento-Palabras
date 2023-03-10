@@ -4,13 +4,17 @@
 
 package Mini_Game;
 
+import Views.Init;
+
 /**
  *
  * @author Alisser
  */
-public class Minigame {
+public class Mini_Game {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Init initWindow = new Init();
+        initWindow.setVisible(true);
+        initWindow.setLocationRelativeTo(null);
     }
 }
