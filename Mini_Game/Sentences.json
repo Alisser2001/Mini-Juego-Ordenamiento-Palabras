@@ -1,0 +1,42 @@
+[
+    {
+        "sentence": "The sun is shining.",
+        "length": 4
+    }, 
+    {
+        "sentence": "I love to read books.",
+        "length": 5
+    }, 
+    {
+        "sentence": "My dog is very friendly.",
+        "length": 5
+    }, 
+    {
+        "sentence": "She sings beautifully.",
+        "length": 3
+    }, 
+    {
+        "sentence": "We enjoy playing games.",
+        "length": 4
+    }, 
+    {
+        "sentence": "He is a talented musician.",
+        "length": 4
+    }, 
+    {
+        "sentence": "The sky is blue today.",
+        "length": 4
+    }, 
+    {
+        "sentence": "They like to travel together.",
+        "length": 4
+    }, 
+    {
+        "sentence": "She cooks delicious food.",
+        "length": 3
+    }, 
+    {
+        "sentence": "My sister is very smart.",
+        "length": 4
+    }
+]
