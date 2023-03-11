@@ -1,92 +1,149 @@
 [
     {
-        "sentence": "The quick brown fox jumps over the lazy dog."
+        "sentence": "I like to read books."
     },
     {
-        "sentence": "I always wanted to be somebody, but now I realize I should have been more specific."
+        "sentence": "The sun is shining today."
     },
     {
-        "sentence": "Life is what happens when you're busy making other plans."
+        "sentence": "He is a good friend."
     },
     {
-        "sentence": "Be the change you wish to see in the world."
+        "sentence": "She loves to sing in the shower."
     },
     {
-        "sentence": "It does not matter how slowly you go as long as you do not stop."
+        "sentence": "My favorite color is blue."
     },
     {
-        "sentence": "If you tell the truth, you don't have to remember anything."
+        "sentence": "We are going to the beach tomorrow."
     },
     {
-        "sentence": "In three words I can sum up everything I've learned about life: it goes on."
+        "sentence": "The cat is sleeping on the couch."
     },
     {
-        "sentence": "The only true wisdom is in knowing you know nothing."
+        "sentence": "I need to buy some groceries."
     },
     {
-        "sentence": "You miss 100% of the shots you don't take."
+        "sentence": "He plays the guitar in a band."
     },
     {
-        "sentence": "Believe you can and you're halfway there."
+        "sentence": "She is always late for class."
     },
     {
-        "sentence": "The best way to predict your future is to create it."
+        "sentence": "The pizza smells delicious."
     },
     {
-        "sentence": "Success is not final, failure is not fatal: it is the courage to continue that counts."
+        "sentence": "We watched a movie last night."
     },
     {
-        "sentence": "Life is a journey, and if you fall in love with the journey, you will be in love forever."
+        "sentence": "The dog barks at strangers."
     },
     {
-        "sentence": "We can't solve problems by using the same kind of thinking we used when we created them."
+        "sentence": "I enjoy playing video games."
     },
     {
-        "sentence": "The only thing we have to fear is fear itself."
+        "sentence": "The coffee is too hot to drink."
     },
     {
-        "sentence": "I have not failed. I've just found 10,000 ways that won't work."
+        "sentence": "She has a beautiful voice."
     },
     {
-        "sentence": "You must be the change you wish to see in the world."
+        "sentence": "He is studying for a test."
     },
     {
-        "sentence": "I can resist everything except temptation."
+        "sentence": "We went hiking in the mountains."
     },
     {
-        "sentence": "The greatest glory in living lies not in never falling, but in rising every time we fall."
+        "sentence": "The baby is crying in the crib."
     },
     {
-        "sentence": "The only way to do great work is to love what you do."
+        "sentence": "I don't like spicy food."
     },
     {
-        "sentence": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."
+        "sentence": "The book is on the shelf."
     },
     {
-        "sentence": "You can't blame gravity for falling in love."
+        "sentence": "She dances ballet on weekends."
     },
     {
-        "sentence": "If you want to live a happy life, tie it to a goal, not to people or things."
+        "sentence": "He is a talented artist."
     },
     {
-        "sentence": "We do not remember days, we remember moments."
+        "sentence": "We went shopping at the mall."
     },
     {
-        "sentence": "It is not in the stars to hold our destiny but in ourselves."
+        "sentence": "The birds are singing outside."
     },
     {
-        "sentence": "We are all in the gutter, but some of us are looking at the stars."
+        "sentence": "I need to do laundry today."
     },
     {
-        "sentence": "The future belongs to those who believe in the beauty of their dreams."
+        "sentence": "The cake tastes delicious."
     },
     {
-        "sentence": "To be successful, you have to have your heart in your business and your business in your heart."
+        "sentence": "She is a great cook."
     },
     {
-        "sentence": "The best revenge is massive success."
+        "sentence": "He drives a red sports car."
     },
     {
-        "sentence": "Life is 10% what happens to us and 90% how we react to it."
+        "sentence": "We are planning a vacation."
+    },
+    {
+        "sentence": "The fish are swimming in the pond."
+    },
+    {
+        "sentence": "I want to learn a new language."
+    },
+    {
+        "sentence": "The tree is tall and green."
+    },
+    {
+        "sentence": "She is a nurse at the hospital."
+    },
+    {
+        "sentence": "He loves to play basketball."
+    },
+    {
+        "sentence": "We had a picnic in the park."
+    },
+    {
+        "sentence": "The rain is pouring outside."
+    },
+    {
+        "sentence": "I need to clean the house."
+    },
+    {
+        "sentence": "The movie was really funny."
+    },
+    {
+        "sentence": "She is studying to be a doctor."
+    },
+    {
+        "sentence": "He is a firefighter."
+    },
+    {
+        "sentence": "We are having a barbecue tonight."
+    },
+    {
+        "sentence": "The sky is clear and blue."
+    },
+    {
+        "sentence": "I enjoy listening to music."
+    },
+    {
+        "sentence": "The flowers are blooming in the garden."
+    },
+    {
+        "sentence": "She is a teacher at the school."
+    },
+    {
+        "sentence": "He is a computer programmer."
+    },
+    {
+        "sentence": "We went to the zoo last weekend."
+    },
+    {
+        "sentence": "The stars are shining in the sky."
     }
 ]
