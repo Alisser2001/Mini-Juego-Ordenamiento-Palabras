@@ -126,18 +126,19 @@ public class Principal extends javax.swing.JFrame implements ActionListener {
                         .addComponent(jLabel2))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(23, 23, 23)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel3)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel4)
                                 .addGap(30, 30, 30)
                                 .addComponent(jLabel1)
-                                .addGap(132, 132, 132)
-                                .addComponent(jButton1))
-                            .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(44, Short.MAX_VALUE))
+                                .addGap(140, 140, 140)
+                                .addComponent(jButton1)))))
+                .addContainerGap(36, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -238,11 +239,7 @@ public class Principal extends javax.swing.JFrame implements ActionListener {
                     sentenceTrue.append(words.getString(i) + " ");
                     sentenceUser.append(sentence.getString(i) + " ");
                 }
-                if (sentenceTrue.toString().equals(sentenceUser.toString())) {
-                    String value = jLabel4.getText();
-                    String plus = Integer.toString(Integer.parseInt(value) + 1);
-                    jLabel4.setText(plus);
-                    Timer timer = new Timer(2000, (ActionEvent e1) -> {
+                Timer timer = new Timer(1000, (ActionEvent e1) -> {
                         // Aquí es donde ocultaremos el JLabel
                         jLabel1.setVisible(false);
                         try {
@@ -252,19 +249,23 @@ public class Principal extends javax.swing.JFrame implements ActionListener {
                             Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
                         }
                     });
+                if (sentenceTrue.toString().equals(sentenceUser.toString())) {
+                    String value = jLabel4.getText();
+                    String plus = Integer.toString(Integer.parseInt(value) + 1);
+                    jLabel4.setText(plus);
+                    jLabel1.setText("Correct!");
                     jLabel1.setVisible(true);
                     timer.setRepeats(false);
                     timer.start();
                     jPanel2.removeAll();
                     jPanel2.repaint();
                 } else {
+                    jLabel1.setText("Incorrect!");
+                    jLabel1.setVisible(true);
+                    timer.setRepeats(false);
+                    timer.start();
                     jPanel2.removeAll();
                     jPanel2.repaint();
-                    try {
-                        this.WordsToLabel();
-                    } catch (IOException ex) {
-                        Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
-                    }
                 }
             }
         }
